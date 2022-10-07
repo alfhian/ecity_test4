@@ -1,0 +1,63 @@
+h5 {
+	color: #628799;
+}
+
+.accordion-item {
+	background-color: #425266 !important;
+}
+
+.accordion-button {
+	background-color: #425266 !important;
+	font-size: 13px !important;
+	color: #c9c9c9;
+	transition: all ease 0.2s;
+}
+
+.accordion-button:hover {
+	color: white;
+}
+
+.accordion-button::after {
+	width: 0.75rem !important;
+	height: 0.75rem !important;
+	background-size: 0.75rem !important;
+}
+
+.sidebar {
+	width: 20%;
+	background-color: #425266;
+	color: lightgray;
+	font-family: 'Poppins', sans-serif;
+}
+
+.active {
+	background-color: #ededed !important;
+	color: #628799 !important;
+}
+
+.active:hover {
+	background-color: #ededed !important;
+	color: #628799 !important;
+}
+
+.list-group-item {
+	background-color: #425266 !important;
+	color: #c9c9c9;
+	font-size: 13px;
+	cursor: pointer;
+	border-radius: 50px;
+	transition: all ease 0.2s;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+	border-radius: 50px;
+}
+
+.list-group-item:hover {
+	background-color: unset !important;
+	color: white;
+}
+
+.hide::after {
+	content: none !important;
+}

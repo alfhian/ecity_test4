@@ -1,0 +1,11 @@
+.profile {
+    display: block;
+}
+
+.education, .experience {
+    display: none;
+}
+
+.education-2, .education-3, .education-4, .experience-2, .experience-3 {
+    display: none;
+}

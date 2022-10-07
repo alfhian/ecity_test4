@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+
+body {
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e2e2e;
+	overflow: hidden;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus,
+button:focus {
+	outline: none !important;
+  box-shadow: none !important;
+}
+
+input[type=text], 
+input[type=email] {
+	text-transform: uppercase;
+}
+
+label {
+	font-size: 12px;
+}
+
+.dataTables_info {
+	font-size: 12px !important;
+}
+
+.form-select, input[type=search], .pagination {
+	font-size: 12px;
+}
+
+.font-size-13 {
+	font-size: 13px;
+}
+
+.form-control {
+	border: solid 1px #cedaed !important;
+}
+
+.select2-selection {
+	border: solid 1px #cedaed !important;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #ededed !important;
+	color: #628799 !important;
+}
+
+.btn {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.btn-blue {
+	color: white;
+	background-color: #5e7aa6;
+}
+
+.btn-blue:hover {
+	color: white;
+	background-color: #738fba;
+}
+
+#table-data {
+	font-size: 12px;
+}
+
+#table-date>tbody>tr {
+	border-top: solid 5px gray;
+}
+
+.form-layout {
+	font-size: 14px;
+}
+
+.nav-link.disabled {
+	background-color: #628799;
+	color: white !important;
+}
+
+.nav-link {
+	background-color: transparent;
+	color: gray !important;
+	cursor: pointer;
+}
+
+.content {
+	height: 100vh;
+	overflow: auto;
+}
+
+.input-table {
+	font-size: 13px;
+}
+
+.input-table>tr>td>input {
+	font-size: 13px;
+	border: solid 1px #cedaed;
+}

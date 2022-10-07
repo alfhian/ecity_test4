@@ -1,0 +1,20 @@
+body {
+	height: 100vh;
+	background-color: #425266;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+input[type='text'], input[type='password'] {
+	border: unset;
+	border-bottom: solid 1px #92b0d6;
+	border-radius: 0;
+}
+
+input[type='submit'] {
+	height: 2.5rem;
+	border-radius: 20px;
+	font-weight: bold;
+}
